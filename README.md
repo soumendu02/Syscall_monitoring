@@ -24,3 +24,14 @@ uname -r
 
 6.8.0-52-generic
 ```
+
+### Required packages
+
+```bash
+sudo apt install -y clang llvm libelf-dev libbpf-dev linux-headers-$(uname -r) gcc make
+
+sudo apt install -y bpftool
+
+sudo apt install -y bpfcc-tools libbpfcc-dev python3-bpfcc
+
+```
